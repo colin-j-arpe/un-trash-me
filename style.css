@@ -1,6 +1,8 @@
 body	{
-	font-family: Helvetica, sans serif;
-	background-color: e0ffe0;
+	font-family: Helvetica, sans-serif;
+	background-color: #c9eda3;
+	width: 1000px;
+	margin: 0 auto;
 }
 
 .banner	{
