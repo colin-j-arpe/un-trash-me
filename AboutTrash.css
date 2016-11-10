@@ -1,0 +1,30 @@
+
+.master-top-block {
+   width: 90%;
+   height: 100%;
+   background: black;
+   border: 10px solid green;
+}
+
+.master-left-column {
+   width: 450px;
+   height: 900px;
+   margin: 0 auto;
+   float: left;
+   border: 10px solid red;
+}
+
+.master-right-column {
+   width: 450px;
+   height: 900px;
+   margin: 0 auto;
+   float: left;
+   border: 10px solid yellow;
+}
+
+.master-trash-block {
+  width: 450px;
+  height: 450px;
+  display: inline;
+  background-color: #fff;
+}
