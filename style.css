@@ -45,3 +45,18 @@ body	{
 	color: #203d00;
 	text-decoration: none;
 }
+
+.link-bar	{
+	position: fixed;
+	top: 290px;
+	left: 10px;
+	width: 30px;
+	height: 1000px;
+	margin: 0 auto;
+}
+
+.link-bar-icon	{
+	width: 30px;
+	height: 30px;
+	padding-bottom: 10px;
+}
