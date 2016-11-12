@@ -71,6 +71,14 @@ body	{
 	height: 500px;
 }
 
+.about_top_container h1 {
+	text-shadow: 2px 2px #203D00;
+}
+
+.about_top_container p {
+	color: #203D00;
+}
+
 .about_main_text {
 	color: white;
 	position: relative;
@@ -81,59 +89,26 @@ body	{
 	text-shadow: 1px 1px #203D00;
 }
 
-.about_about {
-	width: 333px;
-	height: 350px;
+.about_category {
+    width: 332.5px;
+	height: 400px;
 	float: left;
-	border-top: 1px solid #203D00;
 	border-right: 1px solid #203D00;
 	text-align: center;
 	color: white;
 }
 
-.about_location {
-	width: 332px;
-	height: 350px;
-	float: left;
-	border-top: 1px solid #203D00;
-	border-right: 1px solid #203D00;
-	text-align: center;
-	color: white;
+.info_top_container {
+   margin-bottom: 500px;
 }
 
-.about_work {
-	width: 333px;
-	height: 350px;
-	border-top: 1px solid #203D00;
-	float: left;
-	text-align: center;
-	color: white;
-}
-
-.about_about h1 {
+.info_top_container h1 {
 	text-shadow: 2px 2px #203D00;
 }
 
-.about_about p {
+.info_top_container p {
 	color: #203D00;
 }
-
-.about_location h1 {
-	text-shadow: 2px 2px #203D00;
-}
-
-.about_location p {
-	color: #203D00
-}
-
-.about_work h1 {
-	text-shadow: 2px 2px #203D00;
-}
-
-.about_work p {
-	color: #203D00;
-}
-
 .info_main {
 	background-image: url("Images/photo1.jpg");
 	background-size: 100% 100%;
@@ -151,55 +126,37 @@ body	{
 	text-shadow: 1px 1px #203D00;
 }
 
-.info_about {
-	width: 333px;
-	height: 350px;
+.info_category {
+	width: 332.5px;
+	height: 400px;
 	float: left;
-	border-top: 1px solid #203D00;
 	border-right: 1px solid #203D00;
 	text-align: center;
 	color: white;
 }
 
-.info_location {
-	width: 332px;
-	height: 350px;
-	float: left;
-	border-top: 1px solid #203D00;
-	border-right: 1px solid #203D00;
-	text-align: center;
-	color: white;
+.no_right_border {
+	border-right: none;
 }
 
-.info_work {
-	width: 333px;
-	height: 350px;
-	border-top: 1px solid #203D00;
-	float: left;
-	text-align: center;
-	color: white;
+.info_list ul {
+	display: inline;
+    width: 100%;
+    margin: 0 auto;
+    list-style-type: none;
+    margin-top: 100px;
 }
 
-.info_about h1 {
-	text-shadow: 2px 2px #203D00;
+.info_list h1 {
+   width: 900px;
+   margin: 0 auto;
+   color: #203d00;
 }
 
-.info_about p {
-	color: #203D00;
+.button_type {
+  background-color: yellow;
+  font-size: 20px;
+  margin: 2px;
+  float: left;
 }
 
-.info_location h1 {
-	text-shadow: 2px 2px #203D00;
-}
-
-.info_location p {
-	color: #203D00
-}
-
-.info_work h1 {
-	text-shadow: 2px 2px #203D00;
-}
-
-.info_work p {
-	color: #203D00;
-}
