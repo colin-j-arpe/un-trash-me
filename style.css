@@ -69,6 +69,7 @@ body	{
 	background-size: 100% 100%;
 	width: 100%;
 	height: 500px;
+	border: 1px solid #203D00;
 }
 
 .about_top_container h1 {
@@ -86,11 +87,16 @@ body	{
 	clear: both;
 	margin-top: 300px;
 	margin-right: 20px;
-	text-shadow: 1px 1px #203D00;
+	text-shadow: 2px 2px #203D00;
 }
 
+<<<<<<< HEAD
 .about_category {
     width: 332.5px;
+=======
+.about_about {
+	width: 333px;
+>>>>>>> master
 	height: 400px;
 	float: left;
 	border-right: 1px solid #203D00;
@@ -98,18 +104,62 @@ body	{
 	color: white;
 }
 
+<<<<<<< HEAD
 .info_top_container {
    margin-bottom: 500px;
    height: 600px;
 }
 
 .info_top_container h1 {
+=======
+.about_location {
+	width: 332px;
+	height: 400px;
+	float: left;
+	border-right: 1px solid #203D00;
+	text-align: center;
+	color: white;
+}
+
+.about_work {
+	width: 333px;
+	height: 400px;
+	float: left;
+	text-align: center;
+	color: white;
+}
+
+.about_about h1 {
+>>>>>>> master
 	text-shadow: 2px 2px #203D00;
 }
 
 .info_top_container p {
 	color: #203D00;
+	padding: 5px;
 }
+<<<<<<< HEAD
+=======
+
+.about_location h1 {
+	text-shadow: 2px 2px #203D00;
+}
+
+.about_location p {
+	color: #203D00;
+	padding: 5px;
+}
+
+.about_work h1 {
+	text-shadow: 2px 2px #203D00;
+}
+
+.about_work p {
+	color: #203D00;
+	padding: 5px;
+}
+
+>>>>>>> master
 .info_main {
 	background-image: url("Images/photo1.jpg");
 	background-size: 100% 100%;
