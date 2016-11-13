@@ -181,6 +181,12 @@ body	{
 	padding: 5px;
 }
 
+a 	{
+	color: #203D00;
+	text-decoration: none;
+	font-weight: bold;
+}
+
 .about_location h1 {
 	color: #203D00;
 	text-shadow: 2px 2px #white;
@@ -269,4 +275,16 @@ body	{
 
 .info_work p {
 	color: #203D00;
+}
+
+.help_main {
+	background-image: url("Images/Help-Page/CARE-litter.jpg");
+	background-size: 100% 100%;
+	width: 100%;
+	height: 500px;
+	border: 1px solid #203D00;
+}
+
+.help-contact	{
+	color: #203d00;
 }
