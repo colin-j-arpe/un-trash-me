@@ -64,6 +64,42 @@ body	{
 	padding-bottom: 10px;
 }
 
+.page-footer	{
+	background-color: #203d00;
+	color: #c9eda3;
+	width: 100%;
+	height: 100px;
+}
+
+.page-footer div	{
+	display: inline;
+}
+
+.page-footer-content p {
+	
+}
+
+.front-link-images	{
+	width: 300px;
+	text-align: center;
+}
+
+.front-partners	{
+	clear: both;
+	padding: 0 20px;
+	border: 2px solid #65c400;
+}
+
+.front-partners h2	{
+	color: #203D00;
+	padding-top: 0;
+}
+
+.front-partners p 	{
+	display: inline;
+	padding: 0 40px;
+}
+
 .about_main {
 	background-image: url("http://deltonafl.gov/Pages/DeltonaFL_Depts/DeltonaFL_SolidWaste/0171E88B-000F8513.27/DSC_0177.jpg");
 	background-size: 100% 100%;
@@ -73,7 +109,7 @@ body	{
 }
 
 .about_main_text {
-	color: white;
+	color: #c9eda3;
 	position: relative;
 	float: right;
 	clear: both;
@@ -109,7 +145,8 @@ body	{
 }
 
 .about_about h1 {
-	text-shadow: 2px 2px #203D00;
+	color: #203D00;	
+	text-shadow: 2px 2px #white;
 }
 
 .about_about p {
@@ -118,7 +155,8 @@ body	{
 }
 
 .about_location h1 {
-	text-shadow: 2px 2px #203D00;
+	color: #203D00;
+	text-shadow: 2px 2px #white;
 }
 
 .about_location p {
@@ -127,7 +165,8 @@ body	{
 }
 
 .about_work h1 {
-	text-shadow: 2px 2px #203D00;
+	color: #203D00;
+	text-shadow: 2px 2px #white;
 }
 
 .about_work p {
