@@ -12,6 +12,7 @@ body	{
 	background-color: #65c400;
 	border: 1px	double #203d00;
 	text-align: center;
+	background-image: url("Images/UTM-banner.png");
 }
 
 .donate-button	{
