@@ -2,7 +2,7 @@
 body	{
 	font-family: Helvetica, sans-serif;
 	background-color: #c9eda3;
-	width: 1000px;
+	max-width: 1000px;
 	margin: 0 auto;
 }
 
@@ -72,6 +72,14 @@ body	{
 	border: 1px solid #203D00;
 }
 
+.about_top_container h1 {
+	text-shadow: 2px 2px #203D00;
+}
+
+.about_top_container p {
+	color: #203D00;
+}
+
 .about_main_text {
 	color: white;
 	position: relative;
@@ -82,8 +90,8 @@ body	{
 	text-shadow: 2px 2px #203D00;
 }
 
-.about_about {
-	width: 333px;
+.about_category {
+    width: 332.5px;
 	height: 400px;
 	float: left;
 	border-right: 1px solid #203D00;
@@ -91,46 +99,16 @@ body	{
 	color: white;
 }
 
-.about_location {
-	width: 332px;
-	height: 400px;
-	float: left;
-	border-right: 1px solid #203D00;
-	text-align: center;
-	color: white;
+.info_top_container {
+   margin-bottom: 500px;
+   height: 600px;
 }
 
-.about_work {
-	width: 333px;
-	height: 400px;
-	float: left;
-	text-align: center;
-	color: white;
-}
-
-.about_about h1 {
+.info_top_container h1 {
 	text-shadow: 2px 2px #203D00;
 }
 
-.about_about p {
-	color: #203D00;
-	padding: 5px;
-}
-
-.about_location h1 {
-	text-shadow: 2px 2px #203D00;
-}
-
-.about_location p {
-	color: #203D00;
-	padding: 5px;
-}
-
-.about_work h1 {
-	text-shadow: 2px 2px #203D00;
-}
-
-.about_work p {
+.info_top_container p {
 	color: #203D00;
 	padding: 5px;
 }
@@ -152,55 +130,51 @@ body	{
 	text-shadow: 1px 1px #203D00;
 }
 
-.info_about {
-	width: 333px;
-	height: 350px;
+.info_category {
+	width: 332.5px;
+	height: 400px;
 	float: left;
-	border-top: 1px solid #203D00;
 	border-right: 1px solid #203D00;
 	text-align: center;
 	color: white;
 }
 
-.info_location {
-	width: 332px;
-	height: 350px;
-	float: left;
-	border-top: 1px solid #203D00;
-	border-right: 1px solid #203D00;
-	text-align: center;
-	color: white;
+.no_right_border {
+	border-right: none;
 }
 
-.info_work {
-	width: 333px;
-	height: 350px;
-	border-top: 1px solid #203D00;
-	float: left;
-	text-align: center;
-	color: white;
+.info_list ul {
+	display: block;
+    width: 100%;
+    margin: 0 auto;
+    list-style-type: none;
 }
 
-.info_about h1 {
-	text-shadow: 2px 2px #203D00;
+.info_list h1 {
+   width: 900px;
+   display: block;
+   margin: 0 auto;
+   color: #65c400;
+   text-align: center;
 }
 
-.info_about p {
-	color: #203D00;
+.info_list li {
+   width: 500px;
+   margin: 0 auto;
+   display: block;
 }
 
-.info_location h1 {
-	text-shadow: 2px 2px #203D00;
+.idea_list {
+   background-color: yellow;
+}
+.idea_list li {
+   color: #65c400;
 }
 
-.info_location p {
-	color: #203D00
+.button_type {
+  background-color: yellow;
+  font-size: 20px;
+  margin: 2px;
+  float: left;
 }
 
-.info_work h1 {
-	text-shadow: 2px 2px #203D00;
-}
-
-.info_work p {
-	color: #203D00;
-}
