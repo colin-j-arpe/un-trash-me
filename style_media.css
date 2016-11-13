@@ -1,0 +1,10 @@
+@media all and (max-width:480px)
+{
+  .info_main {
+  	background-image: none;
+  }
+
+  .nav-menu-item {
+  	display: block;
+  }  
+}
