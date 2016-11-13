@@ -100,7 +100,7 @@ body	{
 
 .info_top_container {
    margin-bottom: 500px;
-   height: 800px;
+   height: 600px;
 }
 
 .info_top_container h1 {
@@ -152,6 +152,13 @@ body	{
    display: block;
    margin: 0 auto;
    color: #65c400;
+   text-align: center;
+}
+
+.info_list li {
+   width: 500px;
+   margin: 0 auto;
+   display: block;
 }
 
 .idea_list {
