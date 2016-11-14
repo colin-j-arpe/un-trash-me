@@ -1,6 +1,20 @@
 @media all and (max-width:480px)
 {
   .info_main {
+  	display: none;
+  	background-image: none;
+  }
+
+  .banner {
+  	background-image: none;
+  }
+
+  .front_main {
+  	background-image: none;
+  }
+
+  .about_main{
+  	display: none;
   	background-image: none;
   }
 
