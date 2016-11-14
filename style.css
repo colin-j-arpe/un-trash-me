@@ -164,60 +164,9 @@ body	{
 	text-shadow: 2px 2px #203D00;
 }
 
-.about_about {
-	width: 333px;
-}
-
-.about_category {
-    width: 332.5px;
-	height: 8	00px;
-	float: left;
-	border-right: 1px solid #203D00;
-	text-align: center;
-	color: white;
-}
-
-.about_location {
-	width: 332px;
-	float: left;
-	border-right: 1px solid #203D00;
-	text-align: center;
-}
-
-.about_work {
-	width: 333px;
-	float: left;
-	text-align: center;
-}
-
-.about_about h1 {
-	color: #203D00;	
-	text-shadow: 2px 2px #white;
-}
-
-.about_about p {
-	color: #203D00;
-	padding: 5px;
-}
-
-.about_location h1 {
-	color: #203D00;
-	text-shadow: 2px 2px #white;
-}
-
-.about_location p {
-	color: #203D00;
-	padding: 5px;
-}
-
-.about_work h1 {
-	color: #203D00;
-	text-shadow: 2px 2px #white;
-}
-
 .info_top_container {
    margin-bottom: 500px;
-   height: 600px;
+   height: 800px;
 }
 
 .info_top_container h1 {
@@ -248,7 +197,7 @@ body	{
 
 .info_category {
 	width: 332.5px;
-	height: 400px;
+	height: 500px;
 	float: left;
 	border-right: 1px solid #203D00;
 	text-align: center;
