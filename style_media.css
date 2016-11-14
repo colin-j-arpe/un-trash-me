@@ -7,6 +7,18 @@ body	{
 	margin: 0 auto;
 }
 
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
 
 .nav-menu	{
 	color: #203d00;
@@ -181,6 +193,44 @@ body	{
   background-color: yellow;
   font-size: 10px;
   margin: 2px;
+  
+.page-footer {
+	clear: both;
+	position: relative;
+	bottom: 0;
+	background-color: #203d00;
+	color: #c9eda3;
+	width: 100%;
+	height: 100px;
+	padding-top: 20px;
+	
 }
+
+.page-footer div	{
+	color: #c9eda3;
+	margin: 0 80px;
+}
+
+.page-footer-content	{
+	color: #c9eda3;
+}
+
+.page-footer-content p {
+	color: #c9eda3;
+	padding: 0;
+	margin: 0;
+}
+
+.page-footer-logo	{
+	position: relative;
+	bottom: 24px;
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+  
+  
+}
+
 
 }
